@@ -4,7 +4,7 @@ import IconTooling from '../components/icons/IconTooling.vue'
 
 <template>
   <main>
-    <div class="h-dvl md:h-screen flex flex-col items-center justify-center">
+    <div class="h-screen flex flex-col items-center justify-center">
       <div class="max-w-[1200px] mx-auto text-center">
         <p class="text-xl md:text-3xl mb-0">
           Hi, I'm Zlatko

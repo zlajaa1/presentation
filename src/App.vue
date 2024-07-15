@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="profile-image">
       <img src="@/assets/images/profile.jpg" />
     </div>
-    <nav class="navigation roboto-mono text-xl md:text-2xl">
+    <nav class="navigation roboto-mono text-xl lg:text-2xl">
       <RouterLink to="/">Home</RouterLink><br>
       <RouterLink to="/resume">Resume</RouterLink><br>
       <RouterLink to="/projects">Projects</RouterLink>
