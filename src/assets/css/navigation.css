@@ -1,0 +1,43 @@
+/* Navigation */
+.header {
+	position: fixed;
+	top: 0;
+	left: 20px;
+	right: 20px;
+	z-index: 9999;
+	width: auto;
+	padding: 20px 0;
+	border-bottom: 2px solid var(--color-black);
+}
+
+.profile-image {
+	width: 80px;
+	float: left;
+	overflow: hidden;
+	border-radius: 100% 100% 0 100%;
+}
+
+.navigation{
+	text-align: right;
+}
+
+.router-link-active {
+	color: var(--color-secondary);
+}
+
+@media (min-width: 1024px) {
+	.header {
+		top: 20px;
+		bottom: 20px;
+		left: 0;
+		right: auto;
+		width: var(--nav-size);
+		padding: 0 20px;
+		border-right: 2px solid var(--color-black);
+		border-bottom: none;
+	}
+	.profile-image{
+		width: 100%;
+		float: none;
+	}
+}

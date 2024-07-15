@@ -1,0 +1,12 @@
+:root {
+
+	/* Colors */
+	--color-black: #24262f;
+	--color-primary: #fed841;
+	--color-secondary: #eb2f5b;
+
+	/* Sizes */
+	--layout-gap: 220px;
+	--nav-size: var(--layout-gap);
+	--layout-padding: calc(var(--layout-gap) + 20px);
+}
