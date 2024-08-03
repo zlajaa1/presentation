@@ -31,24 +31,25 @@ export default {
     ResumeItem
   },
   setup() {
-    const aboutText = `Hello, my full name is Zlatko Vujičič and for the past eight years, I've been working on 
-                      everything, from small websites to complex applications. In addition to traditional web applications, 
+    const aboutText = `Hello, my full name is <span class="font-bold">Zlatko Vujičič</span> and for the past eight years, I've been working on 
+                      projects ranging from small websites to complex applications. In addition to traditional web applications, 
                       I have also worked on projects involving web games and 
                       <a class="link" 
                       href="https://aws.amazon.com/what-is/iot/#:~:text=The%20term%20IoT%2C%20or%20Internet,as%20between%20the%20devices%20themselves." 
                       target="_blank">IoT</a>.
-                      <br><br>
                       Furthermore, I have developed user experiences and functionality for apps on platforms such as 
                       <a class="link" href="https://www.raspberrypi.com/" target="_blank">Raspberry Pi</a> and 
-                      <a class="link" href="https://mts.rs/Privatni/Televizija" target="_blank">Set Top Boxes</a>.
-                      I enjoy exploring interned and making interesting ideas become live.`;
+                      <a class="link" href="https://mts.rs/Privatni/Televizija" target="_blank">SetTop Box</a>.
+                      <br><br>
+                      While working independent in the start, I soon became active in bigger teams on
+                      bigger projects, collaborating with designers, QA's and Backend devs. Take a look at my experience for more detailed info.`;
     const resumeItems = [
       {
         position: 'Freelance',
         location: 'Remote',
         yearFromTo: '2016 - Present',
         description: `Troughout my freelance career I can stand behind collection of websites, email templates and campaigns,
-                      10's of app prototypes, 2 big and complex administration web apps. My freelance journy started on 
+                      10's of prototypes, 2 big and complex administrational web apps. My freelance journy started on freelance network
                       <a class="link" href="https://www.upwork.com/" target="_blank">UpWork</a> where I found my first agency
                       <a class="link" href="https://www.wittycookie.ca/" target="_blank">WittyCookie</a> and soon after other clients.`,
       },
@@ -56,7 +57,8 @@ export default {
         position: 'Vitamin2',
         location: 'St. Galen',
         yearFromTo: '2018 - 2020',
-        description: `Swiss based marketing company, where we build websites based
+        description: `<a class="link" href="https://vitamin2.ch/" target="_blank">Vitamin2</a>
+                      is marketing company based in Switzerland, where we build websites based
                       on GetKirby CMS system, Applicational websites based on VueJS`,
       },
       {
