@@ -2,10 +2,10 @@
   <div class="item">
     <div class="details">
       <h3>
-        <slot name="position"></slot>
-        <span><slot name="location"></slot></span>
+        <span class="underlined md:text-2xl"><slot name="position"></slot></span>
+        <span class="text-black location-wrapper"> - <slot name="location"></slot></span>
       </h3>
-      <slot name="yearFromTo"></slot>
+      <div class="time-wrapper"><slot name="yearFromTo"></slot></div>
       <slot name="description"></slot>
     </div>
   </div>
@@ -20,12 +20,13 @@
     margin-bottom: 0;
   }
 
-
+.time-wrapper{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
 h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 0.4rem;
-  color: var(--color-heading);
 }
 
 @media (min-width: 1024px) {

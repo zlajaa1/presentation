@@ -50,3 +50,8 @@
     height: 8px;
   }
 }
+
+.link{
+  color: var(--color-secondary);
+	font-weight: 600;
+}
