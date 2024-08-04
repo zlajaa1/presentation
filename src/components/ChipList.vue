@@ -3,7 +3,7 @@
 		<li
 			v-for="(item, index) in list"
 			:key="`${index}-stack`"
-			class="relative grid select-none items-center whitespace-nowrap rounded-md mb-1 bg-gray-900 py-1 px-2 font-bold uppercase text-white">
+			class="relative grid select-none items-center whitespace-nowrap rounded-md mb-1 mr-1 bg-gray-900 py-1 px-2 font-bold uppercase text-white">
 			{{ item }}
 		</li>
 	</ul>
@@ -22,7 +22,6 @@ export default {
 <style scoped>
 .chip-list li{
 	display: inline-block;
-	margin-right: 10px;
 	font-size: 14px;
 	font-weight: 500;
 }
