@@ -7,6 +7,8 @@
       </h3>
       <div class="time-wrapper"><slot name="yearFromTo"></slot></div>
       <slot name="description"></slot>
+      <h3 class="mt-3">Technologies & tools</h3>
+      <slot name="stacks"></slot>
     </div>
   </div>
 </template>

@@ -16,6 +16,9 @@
         <template #location>{{ item.location }}</template>
         <template #yearFromTo>{{ item.yearFromTo }}</template>
         <template #description><p v-html="item.description"></p></template>
+        <template #stacks>
+          <ChipList :list="item.stacks" />
+        </template>
       </ResumeItem>
     </div>
     <!-- # Resume -->
@@ -24,11 +27,12 @@
 
 <script>
 import ResumeItem from '@/components/ResumeItem.vue'
-import { ref } from 'vue'
+import ChipList from '@/components/ChipList.vue'
 
 export default {
   components: {
-    ResumeItem
+    ResumeItem,
+    ChipList
   },
   setup() {
     const aboutText = `Hello, my full name is <span class="font-bold">Zlatko Vujičič</span> and for the past eight years, I've been working on 
@@ -48,18 +52,24 @@ export default {
         position: 'Freelance',
         location: 'Remote',
         yearFromTo: '2016 - Present',
-        description: `Troughout my freelance career I can stand behind collection of websites, email templates and campaigns,
+        description: `Troughout my freelance career I can proudly stand behind collection of websites, email templates and campaigns,
                       10's of prototypes, 2 big and complex administrational web apps. My freelance journy started on freelance network
                       <a class="link" href="https://www.upwork.com/" target="_blank">UpWork</a> where I found my first agency
-                      <a class="link" href="https://www.wittycookie.ca/" target="_blank">WittyCookie</a> and soon after other clients.`,
+                      <a class="link" href="https://www.wittycookie.ca/" target="_blank">WittyCookie</a> and soon after other clients from Canada, England, Holland
+                      to Denmark and Russia.`,
+        stacks: ['HTML5', 'CSS3', 'JavaScript', 'VueJS', 'Node', 'Git', 'NPM', 'PlayCanvas', 'jQuery', 'ScrollMagic', 'WordPress']
       },
       {
         position: 'Vitamin2',
         location: 'St. Galen',
         yearFromTo: '2018 - 2020',
         description: `<a class="link" href="https://vitamin2.ch/" target="_blank">Vitamin2</a>
-                      is marketing company based in Switzerland, where we build websites based
-                      on GetKirby CMS system, Applicational websites based on VueJS`,
+                      is marketing company based in Switzerland. Websites are based on
+                      <a class="link" href="https://getkirby.com/" target="_blank">GetKirby</a> or
+                      <a class="link" href="https://typo3.org/" target="_blank">TYPO3</a> cms systems, while
+                      more customized projects are based on VueJS. Some of the interesting projects I would like to highligh are
+                      game for students of Zurich University and Solar panels project for St. Galen community.`,
+        stacks: ['HTML5', 'CSS3', 'JavaScript', 'VueJS', 'Node', 'Git', 'GetKirby', 'TYPO3']
       },
       {
         position: 'TeleGo',
@@ -67,7 +77,8 @@ export default {
         yearFromTo: '2017 - 2018',
         description: `TeleGo provided services of marketing, developing and maintaining
                       applicational type of projects some of biggest clients are RTS, MTS
-                      Telekom, 365 betting`,
+                      Telekom, 365 betting, Gemius. I had opportunity to build websites on `,
+        stacks: ['HTML5', 'CSS3', 'JavaScript', 'Git', 'jQuery', 'zend2']
       },
       {
         position: 'Pannovate',
