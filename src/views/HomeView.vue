@@ -1,7 +1,3 @@
-<script setup>
-import IconTooling from '../components/icons/IconTooling.vue'
-</script>
-
 <template>
   <main>
     <div class="h-screen flex flex-col items-center justify-center">
