@@ -1,5 +1,5 @@
 <template>
-  <main class="container page-wrapper">
+  <main class="page-wrapper">
     <!-- Summary -->
     <div class="mb-12">
       <h2 class="mb-5 highlight inline-block text-4xl roboto-slab">Professional Summary</h2>
@@ -98,7 +98,7 @@ const resumeItems = [
 
 <style>
 .page-wrapper{
-  padding: 150px 0 0 0;
+  padding: 150px 20px 0 20px;
 }
 @media (min-width: 1024px) {
   .page-wrapper{

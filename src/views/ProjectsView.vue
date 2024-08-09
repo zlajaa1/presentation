@@ -1,5 +1,5 @@
 <template>
-	<main class="container page-wrapper">
+	<main class="page-wrapper">
      <!-- Projects showcase -->
     <div class="mb-12" v-for="(project, index) in projects" :key="`${index}-project`">
       <ProjectItem :info="project" />
@@ -148,7 +148,7 @@ const playgroundText = `Lets end with something fun, you might want to try out <
 
 <style>
 .page-wrapper{
-  padding: 150px 0 0 0;
+  padding: 150px 20px 0 20px;
 }
 .border-sec{
 	position: relative;
