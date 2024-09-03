@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="h-screen flex flex-col items-center justify-center">
+    <div class="h-screen flex flex-col items-center justify-center relative">
       <div class="max-w-[1200px] mx-auto text-center">
         <p class="text-xl md:text-3xl mb-0">
           Hi, I'm Zlatko
@@ -13,7 +13,24 @@
           <span class="underlined">+8 years</span> of Web development,  curious and playful
           in exploring the internet playground.
         </p>
+        <p class="contact">
+          You can contact me on <span class="highlight">vujicic.zlatko@gmail.com</span>
+        </p>
       </div>
     </div>
   </main>
 </template>
+
+<style scoped>
+.contact{
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.marked{
+  color: red;
+  background: yellow;
+}
+</style>
