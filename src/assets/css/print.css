@@ -1,0 +1,8 @@
+@media print {
+    body {
+        background-color: black!important;
+    }
+    .header{
+        display: none!important;
+    }
+}

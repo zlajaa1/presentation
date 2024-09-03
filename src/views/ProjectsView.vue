@@ -29,6 +29,12 @@
         </a>
         <p>MagicLand is also hosted on Poki, it's shooter against bots</p>
       </div>
+      <div class="">
+        <a class="border-sec block" href="https://codepen.io/zlajaa1/pens/public" target="_blank">
+          <img src="@/assets/images/Codepen.jpg" />
+        </a>
+        <p>Check out ideas and what i played with on Codepen</p>
+      </div>
     </div>
     <!-- ### Games showcase -->
   </main>
@@ -103,7 +109,8 @@ const projects = [
           },
           {
             title: 'Creating NPM package',
-            description: 'Some functionality that are missing from existing packages were implemented and published as new package',
+            description: `Some functionality that are missing from existing packages were implemented and published as new
+                          <a class="link" href="https://www.npmjs.com/package/vue-mc360-datamaps" target="_blank"> NPM PACKAGE</a>.`,
           },
           {
             title: 'VUEX management',
@@ -142,11 +149,11 @@ const projects = [
     ];
 const playgroundText = `Lets end with something fun, you might want to try out <span class="underlined">games</span> I've worked on with OnRush Studio or
                         visit my
-                        <a class="link" href="https://codepen.io/zlajaa1/pens/showcase" target="_blank">Codepen</a>
+                        <a class="link" href="https://codepen.io/zlajaa1/pens/public" target="_blank">Codepen</a>
                         to see what I'we been playing with`;
 </script>
 
-<style>
+<style scoped>
 .page-wrapper{
   padding: 150px 20px 0 20px;
 }

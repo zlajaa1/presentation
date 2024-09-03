@@ -6,6 +6,13 @@ body{
 	font-family: "Roboto Mono", monospace;
 	font-weight: 400;
 	font-style: normal;
+	cursor: url('@/assets/images/cursor-default.svg') 15 0, auto;
+}
+a:hover{
+	cursor: url('@/assets/images/cursor-pointer.svg') 15 0, auto;
+}
+p, h1, h2, h3, h4, h5, h6, span{
+	cursor: url('@/assets/images/cursor-text.svg') 15 15, auto;
 }
 ::-moz-selection { /* Code for Firefox */
   color: red;
@@ -16,3 +23,4 @@ body{
   color: red;
   background: yellow;
 }
+

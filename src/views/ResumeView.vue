@@ -7,7 +7,7 @@
     </div>
     <!-- # Summary -->
     <!-- Resume -->
-    <!-- IF some developer see this an ask himself why I didn't use props on component without slots? -->
+    <!-- IF some developer see this and ask himself why I didn't use props on component without slots? -->
      <!-- Answer is I didnt use slot in years so it was fun to play with it 😀 -->
     <div class="mb-12">
       <h2 class="mb-5 highlight inline-block text-4xl roboto-slab">Work Experience</h2>

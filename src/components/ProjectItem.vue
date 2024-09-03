@@ -5,14 +5,13 @@
 	</div>
 	<div class="grid grid-cols-12 gap-4">
 		<div class="col-span-12 md:col-span-4">
-			<a class="border-sec block" :href="info.projectLink" target="_blank">
+			<div class="border-sec">
 				<picture>
 					<source media="(max-width: 979px)" :srcset="getImageUrl().x2">
 					<source media="(min-width: 980px)" :srcset="getImageUrl().regular">
 					<img :src="getImageUrl().regular" :alt="`Project ${info.projectTitle}`" />
 				</picture>
-				<!-- <img :src="getImageUrl()" /> -->
-			</a>
+			</div>
 		</div>
 		<div class="col-span-12 md:col-span-8">
 			<p class="text-xl mb-4">
@@ -25,7 +24,7 @@
 			</p>
 			<ul class="list-disc pl-5 mb-4">
 				<li v-for="(highlight, index) in info.projectHighlights" :key="`${index}-highlight`">
-					<span class="font-bold">{{ highlight.title }}:</span> {{ highlight.description }}
+					<span class="font-bold">{{ highlight.title }}:</span> <span v-html="highlight.description"></span>
 				</li>
 			</ul>
 			<!-- <p class="mb-6" v-html="info.projectInfo"></p> -->
