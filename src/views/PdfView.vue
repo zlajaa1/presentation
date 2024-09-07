@@ -15,8 +15,9 @@
         </p>
       </div>
       <p class="text-center">
-        I strongly suggest that you explore my portfolio at  
-        <a href="https://zlajaa1.github.io/presentation" class="link">https://zlajaa1.github.io/presentation</a>
+        You can find my full resume and projects information at  
+        <a href="https://zlajaa1.github.io/presentation"
+          class="link uppercase text-lg">zlajaa1.github.io/presentation</a>
       </p>
       <p class="text-center">
         or contact me on <span class="highlight">vujicic.zlatko@gmail.com</span>
