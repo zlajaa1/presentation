@@ -31,7 +31,7 @@
     <!-- Resume -->
     <!-- IF some developer see this and ask himself why I didn't use props on component without slots? -->
       <!-- Answer is I didnt use slot in years so it was fun to play with it 😀 -->
-    <div class="mb-12">
+    <div>
       <h2 class="mb-5 highlight inline-block text-4xl roboto-slab">Work Experience</h2>
       <ResumeItem v-for="(item, index) in resumeItems" :key="`${index}-item`">
         <template #position>{{ item.position }}</template>
@@ -126,11 +126,8 @@
     padding: 0;
   }
   .page-wrapper{
-    padding: 50px 0;
+    padding: 50px;
     width: 794px;
-    height: 1124px;
-    overflow: hidden;
-    border: 3px solid black;
   }
   @media (min-width: 1024px) {
     .page-wrapper{
