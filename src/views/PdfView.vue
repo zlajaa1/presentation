@@ -2,30 +2,30 @@
   <main class="page-wrapper">
     <div class="flex flex-col items-center mb-25">
       <div class="max-w-[1200px] mx-auto text-center mb-5">
-        <p class="text-xl md:text-3xl mb-0">
+        <p class="text-xl mb-0">
           Hi, I'm Zlatko
         </p>
-        <h1 class="text-5xl md:text-8xl uppercase mb-8 md:mb-0 roboto-slab">
+        <h1 class="text-4xl uppercase mb-8 md:mb-0 roboto-slab">
           <span class="highlight">Frontend</span>
           <br>developer
         </h1>
-        <p class="text-xl md:text-3xl">
+        <p class="text-lg">
           <span class="underlined">+8 years</span> of Web development,  curious and playful
           in exploring the internet playground.
         </p>
       </div>
-      <p>
+      <p class="text-center">
         I strongly suggest that you explore my portfolio at  
         <a href="https://zlajaa1.github.io/presentation" class="link">https://zlajaa1.github.io/presentation</a>
       </p>
-      <p>
+      <p class="text-center">
         or contact me on <span class="highlight">vujicic.zlatko@gmail.com</span>
       </p>
     </div>
     <!-- Summary -->
     <div class="mb-12">
       <h2 class="mb-5 highlight inline-block text-4xl roboto-slab">Professional Summary</h2>
-      <p class="text-xl" v-html="aboutText"></p>
+      <p class="text-sm" v-html="aboutText"></p>
     </div>
     <!-- # Summary -->
     <!-- Resume -->
@@ -120,13 +120,17 @@
   
 <style scoped>
   .mb-25{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
   .views-wrapper {
     padding: 0;
   }
   .page-wrapper{
-    padding: 100px 0;
+    padding: 50px 0;
+    width: 794px;
+    height: 1124px;
+    overflow: hidden;
+    border: 3px solid black;
   }
   @media (min-width: 1024px) {
     .page-wrapper{
