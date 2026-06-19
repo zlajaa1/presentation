@@ -44,29 +44,52 @@
 import ProjectItem from '@/components/ProjectItem.vue'
 
 const projects = [
-      {
-        projectTitle: 'Solar energy project for St. Galen Community',
-        projectDescription: `SGSW is dedicated to providing solar energy to the St. Gallen community by renting solar panels 
-                            installed on public buildings.`,
-        projectLink: 'https://solarcommunity.sg/eishalle-lerchenfeld-z%C3%BCrcherstrasse-152',
-        linkTitle: 'Solarcommunity',
-        projectImage: 'Solar',
+	{
+        projectTitle: 'DrDragana',
+        projectDescription: `<a class="link" href="https://dr-dragana.com/" target="_blank">Dr Dragana</a>
+                            is medium size wordpress website.`,
+        projectLink: 'https://dr-dragana.com/',
+        linkTitle: 'DrDragana',
+        projectImage: 'dragana',
         projectHighlights: [
           {
             title: 'Design Integration',
-            description: 'Aligned the project with SGSW existing design and functionality, ensuring a seamless user experience.',
+            description: 'Implementation of design and all functional features',
           },
           {
-            title: 'Modularity and Scalability',
-            description: 'Developed a modular and scalable solution to accommodate different buildings, facilitating easy expansion.',
+            title: 'SEO',
+            description: 'Simplification of complex navigation structure that can cover all services',
           },
           {
-            title: 'Future-Proofing',
-            description: 'Incorporated white-labeling capabilities and flexible functionality adjustments to support the project future growth into nearby cities.',
+            title: 'SEO and News',
+            description: 'Content writing and blog feature of wesite, serving for quality SEO purpose',
           }
         ],
-        stacks: ['VueJS', 'Webpack', 'Node', 'Vuex', 'css bem', 'axios'],
+        stacks: ['Wordpress', 'HTML', 'CSS', 'javaScript', 'PHP'],
       },
+      // {
+      //   projectTitle: 'Solar energy project for St. Galen Community',
+      //   projectDescription: `SGSW is dedicated to providing solar energy to the St. Gallen community by renting solar panels 
+      //                       installed on public buildings.`,
+      //   projectLink: 'https://solarcommunity.sg/eishalle-lerchenfeld-z%C3%BCrcherstrasse-152',
+      //   linkTitle: 'Solarcommunity',
+      //   projectImage: 'Solar',
+      //   projectHighlights: [
+      //     {
+      //       title: 'Design Integration',
+      //       description: 'Aligned the project with SGSW existing design and functionality, ensuring a seamless user experience.',
+      //     },
+      //     {
+      //       title: 'Modularity and Scalability',
+      //       description: 'Developed a modular and scalable solution to accommodate different buildings, facilitating easy expansion.',
+      //     },
+      //     {
+      //       title: 'Future-Proofing',
+      //       description: 'Incorporated white-labeling capabilities and flexible functionality adjustments to support the project future growth into nearby cities.',
+      //     }
+      //   ],
+      //   stacks: ['VueJS', 'Webpack', 'Node', 'Vuex', 'css bem', 'axios'],
+      // },
       {
         projectTitle: 'Vitamin2 website',
         projectDescription: `As <span class="underlined">Vitamin2</span> is a designer and marketing oriented company with creative twist in projects,
@@ -123,29 +146,29 @@ const projects = [
         ],
         stacks: ['VueJS', 'Node', 'Vuex', 'axios', 'NPM Package', 'css bem'],
       },
-      {
-        projectTitle: 'Lives In Transit',
-        projectDescription: `<a class="link" href="https://livesintransit.org/" target="_blank">Lives in Transit</a>
-                            is an interactive, text-based game which simulates the experience of researching and writing global history.`,
-        projectLink: 'https://livesintransit.org/',
-        linkTitle: 'Lives In Transit',
-        projectImage: 'LIT',
-        projectHighlights: [
-          {
-            title: 'Design Integration',
-            description: 'Integration of complex layout system',
-          },
-          {
-            title: 'Modularity and Scalability',
-            description: 'Developed a modular and scalable components for project',
-          },
-          {
-            title: 'Data integration',
-            description: 'This project depend on the data controlled by backend, which means all content comes from API endpoints',
-          }
-        ],
-        stacks: ['VueJS', 'Node', 'Vuex', 'axios', 'css bem', 'complex layout system'],
-      },
+      // {
+      //   projectTitle: 'Lives In Transit',
+      //   projectDescription: `<a class="link" href="https://livesintransit.org/" target="_blank">Lives in Transit</a>
+      //                       is an interactive, text-based game which simulates the experience of researching and writing global history.`,
+      //   projectLink: 'https://livesintransit.org/',
+      //   linkTitle: 'Lives In Transit',
+      //   projectImage: 'LIT',
+      //   projectHighlights: [
+      //     {
+      //       title: 'Design Integration',
+      //       description: 'Integration of complex layout system',
+      //     },
+      //     {
+      //       title: 'Modularity and Scalability',
+      //       description: 'Developed a modular and scalable components for project',
+      //     },
+      //     {
+      //       title: 'Data integration',
+      //       description: 'This project depend on the data controlled by backend, which means all content comes from API endpoints',
+      //     }
+      //   ],
+      //   stacks: ['VueJS', 'Node', 'Vuex', 'axios', 'css bem', 'complex layout system'],
+      // },
     ];
 const playgroundText = `Lets end with something fun, you might want to try out <span class="underlined">games</span> I've worked on with OnRush Studio or
                         visit my
